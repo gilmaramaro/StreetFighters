@@ -16,6 +16,9 @@
 		75E6FB6A29BA4D370001F1FA /* StreetFightersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E6FB6929BA4D370001F1FA /* StreetFightersTests.swift */; };
 		75E6FB7429BA4D370001F1FA /* StreetFightersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E6FB7329BA4D370001F1FA /* StreetFightersUITests.swift */; };
 		75E6FB7629BA4D370001F1FA /* StreetFightersUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E6FB7529BA4D370001F1FA /* StreetFightersUITestsLaunchTests.swift */; };
+		75E6FB8429BA539E0001F1FA /* MyCustomTableViewCellXIB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E6FB8229BA539E0001F1FA /* MyCustomTableViewCellXIB.swift */; };
+		75E6FB8529BA539E0001F1FA /* MyCustomTableViewCellXIB.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75E6FB8329BA539E0001F1FA /* MyCustomTableViewCellXIB.xib */; };
+		75E6FB8729BA53C30001F1FA /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E6FB8629BA53C30001F1FA /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		75E6FB6F29BA4D370001F1FA /* StreetFightersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StreetFightersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		75E6FB7329BA4D370001F1FA /* StreetFightersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreetFightersUITests.swift; sourceTree = "<group>"; };
 		75E6FB7529BA4D370001F1FA /* StreetFightersUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreetFightersUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		75E6FB8229BA539E0001F1FA /* MyCustomTableViewCellXIB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomTableViewCellXIB.swift; sourceTree = "<group>"; };
+		75E6FB8329BA539E0001F1FA /* MyCustomTableViewCellXIB.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCustomTableViewCellXIB.xib; sourceTree = "<group>"; };
+		75E6FB8629BA53C30001F1FA /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 				75E6FB5429BA4D350001F1FA /* SceneDelegate.swift */,
 				75E6FB5629BA4D350001F1FA /* ViewController.swift */,
 				75E6FB5829BA4D350001F1FA /* Main.storyboard */,
+				75E6FB8629BA53C30001F1FA /* Game.swift */,
+				75E6FB8229BA539E0001F1FA /* MyCustomTableViewCellXIB.swift */,
+				75E6FB8329BA539E0001F1FA /* MyCustomTableViewCellXIB.xib */,
 				75E6FB5B29BA4D360001F1FA /* Assets.xcassets */,
 				75E6FB5D29BA4D360001F1FA /* LaunchScreen.storyboard */,
 				75E6FB6029BA4D360001F1FA /* Info.plist */,
@@ -231,6 +240,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75E6FB8529BA539E0001F1FA /* MyCustomTableViewCellXIB.xib in Resources */,
 				75E6FB5F29BA4D360001F1FA /* LaunchScreen.storyboard in Resources */,
 				75E6FB5C29BA4D360001F1FA /* Assets.xcassets in Resources */,
 				75E6FB5A29BA4D350001F1FA /* Main.storyboard in Resources */,
@@ -258,6 +268,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75E6FB8429BA539E0001F1FA /* MyCustomTableViewCellXIB.swift in Sources */,
+				75E6FB8729BA53C30001F1FA /* Game.swift in Sources */,
 				75E6FB5729BA4D350001F1FA /* ViewController.swift in Sources */,
 				75E6FB5329BA4D350001F1FA /* AppDelegate.swift in Sources */,
 				75E6FB5529BA4D350001F1FA /* SceneDelegate.swift in Sources */,
