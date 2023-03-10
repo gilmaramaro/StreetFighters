@@ -30,12 +30,11 @@ class ViewController: UIViewController {
     }
     func setupGAme() {
         myTableView.dataSource = self
+        myTableView.delegate = self
         let uiNIB = UINib(nibName: "MyCustomTableViewCellXIB", bundle: nil)
         myTableView.register(uiNIB, forCellReuseIdentifier: "CellXIB")
     }
 }
-
-
 
 extension ViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -51,3 +50,11 @@ extension ViewController: UITableViewDataSource {
     }
 }
 
+extension ViewController: UITableViewDelegate {
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        if let myScreen = storyboard?.instantiateViewController(withIdentifier: "screenTwo") as? SecondViewController {
+            myScreen.myScreenTwo = arrayGame[indexPath.row]
+            self.navigationController?.pushViewController(myScreen, animated: true)
+        }
+    }
+}

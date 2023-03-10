@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		75BDAB7D29BB8E100022100C /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BDAB7C29BB8E100022100C /* SecondViewController.swift */; };
 		75E6FB5329BA4D350001F1FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E6FB5229BA4D350001F1FA /* AppDelegate.swift */; };
 		75E6FB5529BA4D350001F1FA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E6FB5429BA4D350001F1FA /* SceneDelegate.swift */; };
 		75E6FB5729BA4D350001F1FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E6FB5629BA4D350001F1FA /* ViewController.swift */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		75BDAB7C29BB8E100022100C /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		75E6FB4F29BA4D350001F1FA /* StreetFighters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StreetFighters.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75E6FB5229BA4D350001F1FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75E6FB5429BA4D350001F1FA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				75E6FB5429BA4D350001F1FA /* SceneDelegate.swift */,
 				75E6FB5629BA4D350001F1FA /* ViewController.swift */,
 				75E6FB5829BA4D350001F1FA /* Main.storyboard */,
+				75BDAB7C29BB8E100022100C /* SecondViewController.swift */,
 				75E6FB8629BA53C30001F1FA /* Game.swift */,
 				75E6FB8229BA539E0001F1FA /* MyCustomTableViewCellXIB.swift */,
 				75E6FB8329BA539E0001F1FA /* MyCustomTableViewCellXIB.xib */,
@@ -268,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75BDAB7D29BB8E100022100C /* SecondViewController.swift in Sources */,
 				75E6FB8429BA539E0001F1FA /* MyCustomTableViewCellXIB.swift in Sources */,
 				75E6FB8729BA53C30001F1FA /* Game.swift in Sources */,
 				75E6FB5729BA4D350001F1FA /* ViewController.swift in Sources */,
